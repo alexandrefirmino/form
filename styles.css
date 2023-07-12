@@ -1,0 +1,52 @@
+body {
+  background-color: #4b88a2;
+  align-items: center;
+}
+#survey-form {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 50%;
+  background-color: #fff9fb;
+}
+
+h1,
+p {
+  font-family: Tahoma;
+  text-align: center;
+  color: #d3d4d9;
+}
+
+label {
+  display: inline- block;
+  font-size: 20px;
+  color: #252627;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  height: 20px;
+  width: 90%;
+}
+
+div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+textarea {
+  margin-left: 30px;
+}
+
+#submit {
+  width: 95%;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #d5d5e9;
+}
+
+#submit:hover {
+  background-color: #252627;
+  color: white;
+}
